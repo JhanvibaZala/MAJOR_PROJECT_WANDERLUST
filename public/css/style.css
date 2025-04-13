@@ -1,0 +1,243 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+/* cards */
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text {
+  font-weight: 400 !important;
+}
+
+/* card effects */
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  background-color: white;
+}
+
+/* footer */
+.f-info {
+  background-color: whitesmoke;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 5rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.f-info a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info a:hover {
+  text-decoration: underline;
+}
+
+.f-info-socials,
+.f-info-links {
+  display: flex;
+  gap: 1rem;
+}
+
+/* New ejs */
+.add-btn {
+  background-color: crimson !important;
+  border: none !important;
+}
+
+/* Edit ejs */
+.edit-btn {
+  background-color: crimson !important;
+  border: none !important;
+  margin-bottom: 2rem !important;
+}
+
+/* Show ejs */
+.show-img {
+  height: 30vh;
+}
+
+/* flash msg styling */
+
+/* .close {
+    border: none;
+    background-color: #09c97f;
+} */
+
+.fade_success {
+  background-color: #c9ffe5;
+  border: 1px solid #09c97f;
+}
+.fade_success .close {
+  color: #09c97f;
+  border: none;
+}
+.fade_success strong {
+  color: #09c97f;
+}
+.fade_warning {
+  background-color: #fff0cc;
+  border: 1px solid #f8b15d;
+}
+.fade_warning .close {
+  border: none;
+  color: #f8b15d;
+}
+.fade_warning strong {
+  color: #f8b15d;
+}
+.fade_error {
+  background-color: #ffdbdb;
+  border: 1px solid #f95668;
+}
+.fade_error .close {
+  border: none;
+  color: #f95668;
+}
+.fade_error strong {
+  color: #f95668;
+}
+
+/* Map */
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+#map {
+  height: 500px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.input-area {
+  margin-top: 20px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+
+/* filters in index.ejs */
+.filter-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.filters {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 2rem;
+  padding: 1rem;
+
+    /* hide scrollbar for all browsers */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.filter {
+  text-align: center;
+  min-width: 100px;
+  flex-shrink: 0;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.filter:hover {
+  opacity: 1;
+}
+
+.scroll-btn {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.scroll-btn.left {
+  left: 0;
+}
+
+.scroll-btn.right {
+  right: 0;
+}
+
+filters::-webkit-scrollbar {
+display: none; /* Chrome, Safari, Opera */
+}
+
+
+
+/* search bar */
+/* .btn-search,
+.btn-search:hover {
+  background-color: crimson;
+  color: #fff;
+  border-radius: 25px;
+  padding: 0 1rem;
+}
+
+.btn-search i {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+.search-bar-input {
+  border-radius: 25px;
+  padding: 0.5rem 6rem 0.5rem 1rem;
+  font-size: 0.8rem;
+} */
