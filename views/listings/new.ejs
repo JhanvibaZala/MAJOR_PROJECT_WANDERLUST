@@ -9,6 +9,7 @@
       novalidate
       class="needs-validation"
       enctype="multipart/form-data"
+      id="listingForm"
     >
       <!-- Title -->
       <div class="mb-3">
@@ -43,6 +44,7 @@
       <div class="mb-3">
         <label for="location" class="form-label">Location</label>
         <input
+          id="placeInput"
           name="listing[location]"
           type="text"
           class="form-control"
@@ -81,9 +83,24 @@
 
       <!-- Add button -->
       <br />
-      <button type="submit" class="add-btn btn btn-dark">Add</button>
+      <button type="submit" onclick="handleSubmit(event)" class="add-btn btn btn-dark">
+        Add
+      </button>
       <br />
       <br />
     </form>
   </div>
 </div>
+
+<script src="/js/map.js"></script>
+<script>
+  async function handleSubmit(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Call addListing and wait for it to finish
+    await addListing(); 
+
+    // Now submit the form (programmatically)
+    document.getElementById("listingForm").submit();
+  }
+</script>
