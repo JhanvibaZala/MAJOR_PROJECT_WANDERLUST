@@ -1,8 +1,3 @@
-Thanks, Jhanvi! Here's a complete and **accurate README.md** file tailored specifically for your **Wanderlust** full-stack travel app project. I’ve kept it clean, professional, and fully customizable. You can copy and paste it directly into your GitHub repository.
-
----
-
-````markdown
 # 🌍 Wanderlust - Travel Explorer Web App
 
 **Wanderlust** is a full-stack web application that allows users to explore, review, and discover travel destinations. It features location mapping, image uploads, and user authentication — providing a seamless travel-sharing experience for adventurers and explorers.
@@ -29,7 +24,7 @@ Thanks, Jhanvi! Here's a complete and **accurate README.md** file tailored speci
 | Auth        | Passport.js or JWT                           |
 | Image Upload| Cloudinary                                   |
 | Maps        | Mapbox API                                   |
-| Deployment  | Render / Vercel / Netlify / Railway          |
+| Deployment  | Render         |
 
 ---
 
@@ -102,7 +97,7 @@ npm start
 
 ## 🌐 Live Demo
 
-👉 [View Live Project](https://your-deployed-site-url.com)
+👉 [View Live Project](https://major-project-wanderlust-r930.onrender.com/listings)
 
 ---
 
@@ -130,17 +125,12 @@ wanderlust/
 
 Made with ❤️ by **Jhanviba Zala**
 
-* 💼 [LinkedIn](https://www.linkedin.com/in/your-username)
+* 💼 [LinkedIn](www.linkedin.com/in/jhanviba-zala-507061283)
 * 💻 [GitHub](https://github.com/JhanvibaZala)
-* 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+* 📧 Email: [jhanvibazala3@gamil.com](mailto:jhanvibazala3@gmail.com)
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 ## 💡 Future Enhancements
 
